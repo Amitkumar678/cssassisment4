@@ -1,0 +1,140 @@
+#container1 {
+    text-align: center;
+    text-decoration: underline;
+    background: linear-gradient(to right, red, green 30%, yellow);
+    margin-bottom: 20px;
+}
+.container2 {
+   
+    width: 600px;
+background-color: rgb(115, 187, 216);
+border-radius: 10px;
+text-align: center;
+border: 2px solid red;
+margin: auto;
+box-sizing: border-box;
+height: 80px;
+}
+
+.container3 {
+    
+    width: 100%;
+border: 2px solid green;
+background-color: aquamarine;
+border-radius: 10px;
+margin: 20px 0px;
+    margin-top: 20px;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.box {
+    
+    width: 28%;
+    font-weight: bold;
+    line-height: 1.2;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 0px 20px;
+    padding: 0px 10px;
+    border: 2px solid green;
+
+}
+
+#container4 {
+    
+    background: linear-gradient(to right, red, yellow, red);
+text-decoration: underline;
+padding-bottom: 10px;
+font-size: 12px;
+text-align: center;
+}
+
+.container5{
+    
+    display: flex;
+width: 100%;
+height: 300PX;
+border: 1px solid green;
+background: radial-gradient(blue, rgb(48, 187, 48));
+justify-content: center;
+align-items: center;
+margin: 20px 0px;
+}
+
+.studentlist {
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    margin: 60px 20px 10px 20px;
+    display: inline-block;
+
+}
+
+.container6 {
+    /* color: white;
+    background-color: crimson;
+    text-align: center;
+    height: 50px; */
+    background-color: rgb(230, 46, 46);
+text-align: center;
+color: white;
+font-size: 12px;
+padding-bottom: 15px;
+margin-bottom: 30px;
+}
+
+
+
+.container7 {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 150px;
+grid-template-rows: 1fr 1.5fr;
+}
+
+.col {
+    color: white;
+font-size: 20px;
+background-color: orangered;
+margin: 10px;
+font-weight: bold;
+padding: 5px 20px;
+}
+
+    .side {
+        grid-row: span 2;
+        background-color: rgb(32, 32, 32);
+        
+    }
+    .col {
+        color: white;
+        font-size: 20px;
+        /* background-color: orangered; */
+        margin: 10px;
+        font-weight: bold;
+        padding: 5px 20px;
+    }
+    .blow {
+    grid-column: 1 / span 3;
+    background-color: orange;
+}
+.col {
+    color: white;
+    font-size: 20px;
+    /* background-color: orangered; */
+    margin: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: aqua;
+    margin: 10px 0px;
+    font-size: 12px;
+}
